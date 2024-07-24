@@ -120,10 +120,14 @@ class OverworldMap {
 window.OverworldMaps = {
 	DemoRoom: {
 		// Alle maps skal have: lowerSrc, upperSrc , umpBackImage, umpForImage.
-		lowerSrc: '/images/maps/DemoLower.png',
-		upperSrc: '/images/maps/DemoUpper.png',
-		umpBackImage: '/images/umpImages/GrassBG.png',
-		umpForImage: '/images/umpImages/GrassFG.png',
+		lowerSrc:
+			'https://raw.githubusercontent.com/AFShiva/Project-X/main/images/maps/DemoLower.png',
+		upperSrc:
+			'https://raw.githubusercontent.com/AFShiva/Project-X/main/images/maps/DemoUpper.png',
+		umpBackImage:
+			'https://raw.githubusercontent.com/AFShiva/Project-X/main/images/umpImages/GrassBG.png',
+		umpForImage:
+			'https://raw.githubusercontent.com/AFShiva/Project-X/main/images/umpImages/GrassFG.png',
 		gameObjects: {
 			hero: new Person({
 				isPlayerControlled: true,
@@ -136,7 +140,7 @@ window.OverworldMaps = {
 			npcA: new Person({
 				x: utils.withGrid(22),
 				y: utils.withGrid(14),
-				src: '/images/characters/people/npc1.png',
+				src: 'https://raw.githubusercontent.com/AFShiva/Project-X/main/images/characters/people/npc1.png',
 				behaviorLoop: [
 					{ type: 'stand', direction: 'left', time: 300 },
 					{ type: 'stand', direction: 'up', time: 1800 },
@@ -175,7 +179,7 @@ window.OverworldMaps = {
 			npcB: new Person({
 				x: utils.withGrid(30),
 				y: utils.withGrid(12),
-				src: 'images/characters/people/npc2.png',
+				src: 'https://raw.githubusercontent.com/AFShiva/Project-X/main/images/characters/people/npc2.png',
 
 				/* 				behaviorLoop: [
 					{ type: 'walk', direction: 'left' },
@@ -270,10 +274,14 @@ window.OverworldMaps = {
 		},
 	},
 	Beach: {
-		lowerSrc: '/images/maps/BeachLower.png',
-		upperSrc: '/images/maps/BeachUpper.png',
-		umpBackImage: '/images/umpImages/BeachBG.png',
-		umpForImage: '/images/umpImages/BeachFG.png',
+		lowerSrc:
+			'https://raw.githubusercontent.com/AFShiva/Project-X/main/images/maps/BeachLower.png',
+		upperSrc:
+			'https://raw.githubusercontent.com/AFShiva/Project-X/main/images/maps/BeachUpper.png',
+		umpBackImage:
+			'https://raw.githubusercontent.com/AFShiva/Project-X/main/images/umpImages/BeachBG.png',
+		umpForImage:
+			'https://raw.githubusercontent.com/AFShiva/Project-X/main/images/umpImages/BeachFG.png',
 		gameObjects: {
 			hero: new Person({
 				isPlayerControlled: true,
@@ -286,7 +294,7 @@ window.OverworldMaps = {
 			npc2: new Person({
 				x: utils.withGrid(24),
 				y: utils.withGrid(12),
-				src: '/images/characters/people/npc2.png',
+				src: 'https://raw.githubusercontent.com/AFShiva/Project-X/main/images/characters/people/npc2.png',
 				talking: [
 					{
 						events: [

@@ -115,8 +115,8 @@
 	text-shadow: 0px 0px rgba(0, 0, 0, 0.2);
 }
 
-/* <img src="images/textground/${this.background}.png" class="TextMessage_bg">
-<img src="images/textground/${this.forground}.png" class"TextMessage_fg"> */
+/* <img src="https://raw.githubusercontent.com/AFShiva/Project-X/main/images/textground/${this.background}.png" class="TextMessage_bg">
+<img src="https://raw.githubusercontent.com/AFShiva/Project-X/main/images/textground/${this.forground}.png" class"TextMessage_fg"> */
 /* .TextMessage_bg {
 	z-index: 1;
 	margin: 0;

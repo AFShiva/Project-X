@@ -100,7 +100,7 @@
 	width: 32px;
 	height: 32px;
 	overflow: hidden;
-	background: url(../images/CCreator/skintypes/whitewalker.png);
+	background-image: url('https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/skintypes/whitewalker.png');
 	image-rendering: pixelated;
 }
 
@@ -112,7 +112,7 @@
 	width: 32px;
 	height: 32px;
 	overflow: hidden;
-	background: url(../images/CCreator/skintypes/palewalker.png);
+	background-image: url('https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/skintypes/palewalker.png');
 	image-rendering: pixelated;
 }
 
@@ -124,7 +124,7 @@
 	width: 32px;
 	height: 32px;
 	overflow: hidden;
-	background: url(../images/CCreator/skintypes/brownwalker.png);
+	background-image: url('https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/skintypes/brownwalker.png');
 	image-rendering: pixelated;
 }
 
@@ -136,12 +136,12 @@
 	width: 32px;
 	height: 32px;
 	overflow: hidden;
-	background: url(../images/CCreator/skintypes/darkwalker.png);
+	background-image: url('https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/skintypes/darkwalker.png');
 	image-rendering: pixelated;
 }
 
 .darkfix {
-	background: url(../images/CCreator/skintypes/darkwalkerfix.png);
+	background-image: url('https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/skintypes/darkwalkerfix.png');
 	image-rendering: pixelated;
 }
 

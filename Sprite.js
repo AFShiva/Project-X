@@ -11,7 +11,8 @@ class Sprite {
 		this.face = new Image();
 		this.useFace = config.useFace || false;
 		if (this.useFace) {
-			this.face.src = 'images/CCreator/facetypes/faceType1Black.png';
+			this.face.src =
+				'https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/facetypes/faceType1Black.png';
 		}
 		this.face.onload = () => {
 			this.isFaceLoaded = true;
@@ -20,7 +21,8 @@ class Sprite {
 		this.hair = new Image();
 		this.useHair = config.useHair || false;
 		if (this.useHair) {
-			this.hair.src = 'images/CCreator/hairtypes/hairtype1Black.png';
+			this.hair.src =
+				'https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/hairtypes/hairtype1Black.png';
 		}
 		this.hair.onload = () => {
 			this.isHairLoaded = true;
@@ -31,7 +33,8 @@ class Sprite {
 		// hvis vi ikke ønsker skygge, så skal den ikke downloade
 		this.useShadow = true; //config.useShadow || false
 		if (this.useShadow) {
-			this.shadow.src = 'images/characters/shadow.png';
+			this.shadow.src =
+				'https://raw.githubusercontent.com/AFShiva/Project-X/main/images/characters/shadow.png';
 		}
 		this.shadow.onload = () => {
 			this.isShadowLoaded = true;

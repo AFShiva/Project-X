@@ -31,7 +31,7 @@ body {
 	margin: 0 auto;
 	outline: 1px solid #ffff;
 	/* til at ændre størrelse */
-	transform: scale(3) translateY(34.5%);
+	transform: scale(2) translateY(34.5%);
 }
 
 .game-container canvas {

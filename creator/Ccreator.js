@@ -9,134 +9,134 @@ class Ccreator {
 		this.element.classList.add('CCreator');
 		this.element.innerHTML = `
       <div class="carousel">
-				<button id ="EyeUp" class ="eye_button eye_button--up is-hidden no_show"><img src="/images/CCreator/upButton.png" alt="Up" draggable="false"/></button>
-				<button id ="HairUp" class ="hairColor_button hairColor_button--up is-hidden no_show"><img src="/images/CCreator/upButton.png" alt="Up" draggable="false"/></button>
-				<button id ="HairLeft" class ="hair_button hair_button--left is-hidden no_show"><img src="/images/CCreator/leftButton.png" alt="Left" draggable="false"/></button>
-				<button id ="FaceLeft" class ="face_button face_button--left is-hidden no_show"><img src="/images/CCreator/leftButton.png" alt="Left" draggable="false"/></button>
+				<button id ="EyeUp" class ="eye_button eye_button--up is-hidden no_show"><img src="https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/upButton.png" alt="Up" draggable="false"/></button>
+				<button id ="HairUp" class ="hairColor_button hairColor_button--up is-hidden no_show"><img src="https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/upButton.png" alt="Up" draggable="false"/></button>
+				<button id ="HairLeft" class ="hair_button hair_button--left is-hidden no_show"><img src="https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/leftButton.png" alt="Left" draggable="false"/></button>
+				<button id ="FaceLeft" class ="face_button face_button--left is-hidden no_show"><img src="https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/leftButton.png" alt="Left" draggable="false"/></button>
         <button id ="SkinLeft" class ="skin_button skin_button--left is-hidden">
-        <img src="/images/CCreator/leftButton.png" alt="Left" draggable="false"/>
+        <img src="https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/leftButton.png" alt="Left" draggable="false"/>
         </button>
         <div class = "carousel_track-container ">
         <ul class ="skin_track ">
           <li class ="skin_slide current-slide">
-            <img class="carousel_image CCreatorAnimation" id="white" src ="/images/CCreator/blanksheet.png" alt = "white" draggable="false" >
+            <img class="carousel_image CCreatorAnimation" id="white" src ="https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/blanksheet.png" alt = "white" draggable="false" >
           </li>
           <li class ="skin_slide">
-            <img class="carousel_image CCreatorAnimation" id="pale" src ="/images/CCreator/blanksheet.png" alt = "pale" draggable="false">
+            <img class="carousel_image CCreatorAnimation" id="pale" src ="https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/blanksheet.png" alt = "pale" draggable="false">
           </li>
           <li class ="skin_slide">
-            <img class="carousel_image CCreatorAnimation" id="brown" src ="/images/CCreator/blanksheet.png" alt = "brown" draggable="false">
+            <img class="carousel_image CCreatorAnimation" id="brown" src ="https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/blanksheet.png" alt = "brown" draggable="false">
           </li>
           <li class ="skin_slide">
-            <img class="carousel_image CCreatorAnimation" id="dark" src ="/images/CCreator/blanksheet.png" alt = "dark" draggable="false">
+            <img class="carousel_image CCreatorAnimation" id="dark" src ="https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/blanksheet.png" alt = "dark" draggable="false">
           </li>
         </ul>
 				<ul class ="face_track no_show">
           <li class ="face_slide faceCurrent_Slide">
-            <img class="carousel_image CCreatorAnimation" id="face1Black" src ="/images/CCreator/blanksheet.png" alt = "face1" draggable="false" >
+            <img class="carousel_image CCreatorAnimation" id="face1Black" src ="https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/blanksheet.png" alt = "face1" draggable="false" >
           </li>
           <li class ="face_slide">
-            <img class="carousel_image CCreatorAnimation" id="face2Black" src ="/images/CCreator/blanksheet.png" alt = "face2" draggable="false">
+            <img class="carousel_image CCreatorAnimation" id="face2Black" src ="https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/blanksheet.png" alt = "face2" draggable="false">
           </li>
           <li class ="face_slide">
-            <img class="carousel_image CCreatorAnimation" id="face3Black" src ="/images/CCreator/blanksheet.png" alt = "face3" draggable="false">
+            <img class="carousel_image CCreatorAnimation" id="face3Black" src ="https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/blanksheet.png" alt = "face3" draggable="false">
           </li>
           <li class ="face_slide ">
-            <img class="carousel_image CCreatorAnimation" id="face4Black" src ="/images/CCreator/blanksheet.png" alt = "face4" draggable="false">
+            <img class="carousel_image CCreatorAnimation" id="face4Black" src ="https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/blanksheet.png" alt = "face4" draggable="false">
           </li>
         </ul>
 				<ul class ="hair_track no_show">
 				<li class ="hair_slide hairCurrent_Slide">
-					<img class="carousel_image CCreatorAnimation" id="hair1Black" src ="/images/CCreator/blanksheet.png" alt = "hair1" draggable="false" >
+					<img class="carousel_image CCreatorAnimation" id="hair1Black" src ="https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/blanksheet.png" alt = "hair1" draggable="false" >
 				</li>
 				<li class ="hair_slide">
-					<img class="carousel_image CCreatorAnimation" id="hair2Black" src ="/images/CCreator/blanksheet.png" alt = "hair2" draggable="false">
+					<img class="carousel_image CCreatorAnimation" id="hair2Black" src ="https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/blanksheet.png" alt = "hair2" draggable="false">
 				</li>
 				<li class ="hair_slide">
-					<img class="carousel_image CCreatorAnimation" id="hair3Black" src ="/images/CCreator/blanksheet.png" alt = "hair3" draggable="false">
+					<img class="carousel_image CCreatorAnimation" id="hair3Black" src ="https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/blanksheet.png" alt = "hair3" draggable="false">
 				</li>
 				<li class ="hair_slide ">
-					<img class="carousel_image CCreatorAnimation" id="hair4Black" src ="/images/CCreator/blanksheet.png" alt = "hair4" draggable="false">
+					<img class="carousel_image CCreatorAnimation" id="hair4Black" src ="https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/blanksheet.png" alt = "hair4" draggable="false">
 				</li>
 			</ul>
       </div>
-			<button id ="EyeDown" class ="eye_button eye_button--down no_show"><img src="/images/CCreator/downButton.png" alt="Down" draggable="false"/></button>
-			<button id ="HairDown" class ="hairColor_button hairColor_button--down no_show"><img src="/images/CCreator/downButton.png" alt="Down" draggable="false"/></button>
-			<button id ="HairRight" class ="hair_button hair_button--right no_show"><img src="/images/CCreator/rightButton.png" alt="right" draggable="false"/></button>
-			<button id ="FaceRight" class ="face_button face_button--right no_show"><img src="/images/CCreator/rightButton.png" alt="right" draggable="false"/></button>
+			<button id ="EyeDown" class ="eye_button eye_button--down no_show"><img src="https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/downButton.png" alt="Down" draggable="false"/></button>
+			<button id ="HairDown" class ="hairColor_button hairColor_button--down no_show"><img src="https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/downButton.png" alt="Down" draggable="false"/></button>
+			<button id ="HairRight" class ="hair_button hair_button--right no_show"><img src="https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/rightButton.png" alt="right" draggable="false"/></button>
+			<button id ="FaceRight" class ="face_button face_button--right no_show"><img src="https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/rightButton.png" alt="right" draggable="false"/></button>
       <button id ="SkinRight" class ="skin_button skin_button--right">
-      <img src="/images/CCreator/rightButton.png" alt="right" draggable="false"/>
+      <img src="https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/rightButton.png" alt="right" draggable="false"/>
       </button>
       <p class= CCreatorP id="CCreatorPString">Choose your skincolor:</p>
       <div class ="skin_nav">
         <button class="whitebutton current-slide">
-        <img src="/images/CCreator/skintypes/whiteButton.png" draggable="false" />
+        <img src="https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/skintypes/whiteButton.png" draggable="false" />
         </button>
         <button class="palebutton">
-        <img src="/images/CCreator/skintypes/paleButton.png" draggable="false" />
+        <img src="https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/skintypes/paleButton.png" draggable="false" />
         </button>
         <button class="tanbutton">
-        <img src="/images/CCreator/skintypes/brownButton.png" draggable="false" />
+        <img src="https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/skintypes/brownButton.png" draggable="false" />
         </button>
         <button class="darkbutton">
-        <img src="/images/CCreator/skintypes/darkButton.png" draggable="false" />
+        <img src="https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/skintypes/darkButton.png" draggable="false" />
         </button>
       </div>
 			<div class ="face_nav no_show">
 				<button class="face1button faceCurrent_Slide no_show">
-					<img src="/images/CCreator/facetypes/face1Button.png" draggable="false" />
+					<img src="https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/facetypes/face1Button.png" draggable="false" />
 				</button>
 				<button class="face2button no_show">
-					<img src="/images/CCreator/facetypes/face2Button.png" draggable="false" />
+					<img src="https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/facetypes/face2Button.png" draggable="false" />
 				</button>
 				<button class="face3button no_show">
-					<img src="/images/CCreator/facetypes/face3Button.png" draggable="false" />
+					<img src="https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/facetypes/face3Button.png" draggable="false" />
 				</button>
 				<button class="face4button no_show">
-					<img src="/images/CCreator/facetypes/face4Button.png" draggable="false" />
+					<img src="https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/facetypes/face4Button.png" draggable="false" />
 				</button>
 			</div>
 			<div class ="hair_nav no_show">
 				<button class="hair1button hairCurrent_Slide no_show">
-					<img src="/images/CCreator/hairtypes/hair1Button.png" draggable="false" />
+					<img src="https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/hairtypes/hair1button.png" draggable="false" />
 				</button>
 				<button class="hair2button no_show">
-					<img src="/images/CCreator/hairtypes/hair2Button.png" draggable="false" />
+					<img src="https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/hairtypes/hair2button.png" draggable="false" />
 				</button>
 				<button class="hair3button no_show">
-					<img src="/images/CCreator/hairtypes/hair3Button.png" draggable="false" />
+					<img src="https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/hairtypes/hair3button.png" draggable="false" />
 				</button>
 				<button class="hair4button no_show">
-					<img src="/images/CCreator/hairtypes/hair4Button.png" draggable="false" />
+					<img src="https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/hairtypes/hair4button.png" draggable="false" />
 				</button>
 			</div>
 			<p class= "CCreatorP2 no_show" id="CCreatorPString2"></p>
 			<div class = "eye_nav ">
 				<button class="eye1button eyeCurrent_Slide no_show">
-					<img src="/images/CCreator/facetypes/eyeButtonBlack.png" draggable="false" />
+					<img src="https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/facetypes/eyeButtonBlack.png" draggable="false" />
 				</button>
 				<button class="eye2button no_show">
-					<img src="/images/CCreator/facetypes/eyeButtonBrown.png" draggable="false" />
+					<img src="https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/facetypes/eyeButtonBrown.png" draggable="false" />
 				</button>
 				<button class="eye3button no_show">
-					<img src="/images/CCreator/facetypes/eyeButtonBlue.png" draggable="false" />
+					<img src="https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/facetypes/eyeButtonBlue.png" draggable="false" />
 				</button>
 				<button class="eye4button no_show">
-					<img src="/images/CCreator/facetypes/eyeButtonGreen.png" draggable="false" />
+					<img src="https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/facetypes/eyeButtonGreen.png" draggable="false" />
 				</button>
 				</div>
 				<div class = "hairColor_nav">
 				<button class="hairColor1button hairColorCurrent_Slide no_show">
-					<img src="/images/CCreator/hairtypes/hairButtonBlack.png" draggable="false" />
+					<img src="https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/hairtypes/hairButtonBlack.png" draggable="false" />
 				</button>
 				<button class="hairColor2button no_show">
-					<img src="/images/CCreator/hairtypes/hairButtonBrown.png" draggable="false" />
+					<img src="https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/hairtypes/hairButtonBrown.png" draggable="false" />
 				</button>
 				<button class="hairColor3button no_show">
-					<img src="/images/CCreator/hairtypes/hairButtonBlonde.png" draggable="false" />
+					<img src="https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/hairtypes/hairButtonBlonde.png" draggable="false" />
 				</button>
 				<button class="hairColor4button no_show">
-					<img src="/images/CCreator/hairtypes/hairButtonOrange.png" draggable="false" />
+					<img src="https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/hairtypes/hairButtonOrange.png" draggable="false" />
 				</button>
 				</div>
 			<button class="skinSubmitBtn">
@@ -421,7 +421,7 @@ class Ccreator {
 			if (this.skinCount == 4) {
 				// Til at at fixe se bar hed af darkwalker med brune øjne.
 				document.getElementById('dark').style.background =
-					'url(../images/CCreator/skintypes/darkwalkerfix.png)';
+					'url(..https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/skintypes/darkwalkerfix.png)';
 				setSkinColor('darkwalkerfix');
 				this.skinPicked = true;
 				this.skinDone();

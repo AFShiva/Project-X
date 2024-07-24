@@ -5,8 +5,8 @@ class Player {
 function setSkinColor(name) {
 	function skinColor() {
 		// Funktioner til at ændre skintype i hver map.
-		window.OverworldMaps.DemoRoom.gameObjects.hero.sprite.image.attributes.src.value = `/images/CCreator/skintypes/${name}.png`;
-		window.OverworldMaps.Beach.gameObjects.hero.sprite.image.attributes.src.value = `/images/CCreator/skintypes/${name}.png`;
+		window.OverworldMaps.DemoRoom.gameObjects.hero.sprite.image.attributes.src.value = `https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/skintypes/${name}.png`;
+		window.OverworldMaps.Beach.gameObjects.hero.sprite.image.attributes.src.value = `https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/skintypes/${name}.png`;
 	}
 	function setSkinUMP() {
 		// Til UMP skin visning
@@ -19,8 +19,8 @@ function setSkinColor(name) {
 function setFaceType(name) {
 	function faceType() {
 		// Funktioner til at ændre face i hver map.
-		window.OverworldMaps.DemoRoom.gameObjects.hero.sprite.face.src = `/images/CCreator/facetypes/${name}.png`;
-		window.OverworldMaps.Beach.gameObjects.hero.sprite.face.src = `/images/CCreator/facetypes/${name}.png`;
+		window.OverworldMaps.DemoRoom.gameObjects.hero.sprite.face.src = `https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/facetypes/${name}.png`;
+		window.OverworldMaps.Beach.gameObjects.hero.sprite.face.src = `https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/facetypes/${name}.png`;
 	}
 	function setFaceUMP() {
 		// Til UMP skin visning
@@ -33,8 +33,8 @@ function setFaceType(name) {
 function setHairType(name) {
 	function hairType() {
 		// Funktioner til at ændre hår i hver map.
-		window.OverworldMaps.DemoRoom.gameObjects.hero.sprite.hair.src = `/images/CCreator/hairtypes/${name}.png`;
-		window.OverworldMaps.Beach.gameObjects.hero.sprite.hair.src = `/images/CCreator/hairtypes/${name}.png`;
+		window.OverworldMaps.DemoRoom.gameObjects.hero.sprite.hair.src = `https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/hairtypes/${name}.png`;
+		window.OverworldMaps.Beach.gameObjects.hero.sprite.hair.src = `https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/hairtypes/${name}.png`;
 	}
 	// Til UMP hair visning
 	hairType();
