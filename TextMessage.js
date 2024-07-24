@@ -22,8 +22,8 @@ class TextMessage {
 		this.element.innerHTML = `
 			<p class="TextMessage_p"></p>
 			<div class="${this.textwho}"></div>
-			<div id="TextMessage_bg" style="left: 0px; bottom: 28px; position: absolute"><img draggable="false" src="images/textground/${this.background}.png"></div>
-			<div id="TextMessage_fg" style="left: 0px; bottom: -4px; position: absolute"> <img draggable="false" src="images/textground/${this.forground}.png"></div>
+			<div id="TextMessage_bg" style="left: 0px; bottom: 28px; position: absolute"><img draggable="false" src="/images/textground/${this.background}.png"></div>
+			<div id="TextMessage_fg" style="left: 0px; bottom: -4px; position: absolute"> <img draggable="false" src="/images/textground/${this.forground}.png"></div>
 			<button class="TextMessage_button" id="textbutton">Next</button>
 			`;
 		document.getElementById('UMOptionsID').style.visibility = 'hidden';

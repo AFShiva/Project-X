@@ -120,10 +120,10 @@ class OverworldMap {
 window.OverworldMaps = {
 	DemoRoom: {
 		// Alle maps skal have: lowerSrc, upperSrc , umpBackImage, umpForImage.
-		lowerSrc: 'images/maps/DemoLower.png',
-		upperSrc: 'images/maps/DemoUpper.png',
-		umpBackImage: 'images/umpImages/GrassBG.png',
-		umpForImage: 'images/umpImages/GrassFG.png',
+		lowerSrc: '/images/maps/DemoLower.png',
+		upperSrc: '/images/maps/DemoUpper.png',
+		umpBackImage: '/images/umpImages/GrassBG.png',
+		umpForImage: '/images/umpImages/GrassFG.png',
 		gameObjects: {
 			hero: new Person({
 				isPlayerControlled: true,
@@ -136,7 +136,7 @@ window.OverworldMaps = {
 			npcA: new Person({
 				x: utils.withGrid(22),
 				y: utils.withGrid(14),
-				src: 'images/characters/people/npc1.png',
+				src: '/images/characters/people/npc1.png',
 				behaviorLoop: [
 					{ type: 'stand', direction: 'left', time: 300 },
 					{ type: 'stand', direction: 'up', time: 1800 },
@@ -157,7 +157,7 @@ window.OverworldMaps = {
 								// forground: samme som ovenfor, hvilken forground? navn på billedet.
 								// faceHero: Hvem skal kigge mod hero? "npcA" osv.
 								type: 'textMessage',
-								text: 'Welcome Osama my friend!',
+								text: 'Welcome my friend!',
 								textwho: 'textNpc',
 								faceHero: 'npcA',
 							},
@@ -252,7 +252,7 @@ window.OverworldMaps = {
 						{
 							type: 'textMessage',
 							textwho: 'textNpc',
-							text: 'Du skal gå tilbage nu Osama!',
+							text: 'Du skal gå tilbage nu!',
 							background: 'GrassBG',
 							forground: 'GrassFG',
 						},
@@ -270,10 +270,10 @@ window.OverworldMaps = {
 		},
 	},
 	Beach: {
-		lowerSrc: 'images/maps/BeachLower.png',
-		upperSrc: 'images/maps/BeachUpper.png',
-		umpBackImage: 'images/umpImages/BeachBG.png',
-		umpForImage: 'images/umpImages/BeachFG.png',
+		lowerSrc: '/images/maps/BeachLower.png',
+		upperSrc: '/images/maps/BeachUpper.png',
+		umpBackImage: '/images/umpImages/BeachBG.png',
+		umpForImage: '/images/umpImages/BeachFG.png',
 		gameObjects: {
 			hero: new Person({
 				isPlayerControlled: true,
@@ -286,39 +286,34 @@ window.OverworldMaps = {
 			npc2: new Person({
 				x: utils.withGrid(24),
 				y: utils.withGrid(12),
-				src: 'images/characters/people/npc2.png',
+				src: '/images/characters/people/npc2.png',
 				talking: [
 					{
 						events: [
 							{
 								type: 'textMessage',
-								text: '(The sun is bright yellow)',
-								faceHero: 'npc2',
-							},
-							{
-								type: 'textMessage',
-								text: '(The thirst for water, is overwhelming your sanity)',
+								text: '(The sun is bright yellow, and no worries in the world)',
 								faceHero: 'npc2',
 							},
 							{
 								type: 'textMessage',
 								textwho: 'textNpc',
-								text: 'Osama du skal lære Javascript',
+								text: 'This is the dream...',
 							},
 							{
 								type: 'textMessage',
 								textwho: 'textNpc',
-								text: 'mulighederne er uendelig :)',
+								text: 'Enjoying the beach on a hot day!',
 							},
 							{
 								type: 'textMessage',
 								textwho: 'textHero',
-								text: 'Du har ret Faisal',
+								text: 'You are right Faisal',
 							},
 							{
 								type: 'textMessage',
 								textwho: 'textHero',
-								text: 'Jeg vil nu dedikerer mit liv til at lære Javascript',
+								text: 'I will now dedicate my life to learning Javascript',
 							},
 							{ who: 'hero', type: 'walk', direction: 'up', time: 300 },
 						],
