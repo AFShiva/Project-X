@@ -1,0 +1,97 @@
+.UnderMenu {
+	position: absolute;
+	left: 0px;
+	bottom: -4px;
+}
+.UnderMenuContainer {
+	position: relative;
+	background-image: url(/images/ui/undermenu.png);
+	background-repeat: no-repeat;
+	border: none;
+	width: 352px;
+	height: 132px;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+.UMPreview {
+	position: absolute;
+	top: 3px;
+	left: 5px;
+	width: 176px;
+	height: 122px;
+	display: grid;
+}
+
+.UMPPlayer {
+	position: absolute;
+	top: 45px;
+	left: 40px;
+	width: 64px;
+	height: 64px;
+	/* overflow: hidden; */
+	z-index: 10;
+}
+
+.UMPFACE {
+	position: absolute;
+	width: 64px;
+	height: 64px;
+	background-image: url('/images/umpcharacters/Faces/Template.png');
+
+	image-rendering: pixelated;
+}
+
+.UMPSKIN {
+	width: 64px;
+	height: 64px;
+	background-image: url('/images/umpcharacters/Skins/Template.png');
+
+	image-rendering: pixelated;
+}
+
+.UMPIdle {
+	animation: UMP6Frames 1.45s steps(6) infinite;
+}
+
+/* Tilføj positionering til venstre og højre på spritesheet UMPWalk*/
+.UMPWalkright {
+	background-position-y: 128px;
+}
+
+.UMPWalkup {
+	background-position-y: 128px;
+}
+
+.UMPWalkdown {
+	background-position-y: 64px;
+}
+
+.UMPWalkleft {
+	background-position-y: 64px;
+}
+
+@keyframes UMP6Frames {
+	0% {
+		background-position-x: 0;
+	}
+	100% {
+		background-position-x: -384px;
+	}
+}
+
+.UMOptions {
+	position: absolute;
+	top: 3px;
+	right: 5px;
+	width: 176px;
+	height: 122px;
+	display: grid;
+}
+
+.is-hidden {
+	display: none;
+}

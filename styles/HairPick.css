@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+.no_show {
+	display: none;
+}
+
+.hair_button {
+	position: absolute;
+	transform: translateY(-40%);
+	top: 40%;
+	background: transparent;
+	image-rendering: crisp-edges;
+	border: 0;
+	cursor: pointer;
+	outline: none;
+	z-index: 100;
+}
+
+.hair_button--left {
+	left: 50px;
+}
+
+.hair_button--left:active {
+	left: 45px;
+}
+.tapped--left {
+	left: 45px;
+}
+
+.hair_button--right {
+	right: 50px;
+}
+
+.hair_button--right:active {
+	right: 45px;
+}
+
+.tapped--right {
+	right: 45px;
+}
+
+.hair_button img {
+	width: 30px;
+	image-rendering: pixelated;
+}
+
+#hair1Black {
+	position: absolute;
+	top: 50%;
+	left: 44.4%;
+	transform: scale(1.3);
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	background: url(../images/CCreator/hairtypes/hairtype1Black.png);
+	image-rendering: pixelated;
+}
+#hair1Brown {
+	position: absolute;
+	top: 50%;
+	left: 44.4%;
+	transform: scale(1.3);
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	background: url(../images/CCreator/hairtypes/hairtype1Brown.png);
+	image-rendering: pixelated;
+}
+#hair1Blonde {
+	position: absolute;
+	top: 50%;
+	left: 44.4%;
+	transform: scale(1.3);
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	background: url(../images/CCreator/hairtypes/hairtype1Blonde.png);
+	image-rendering: pixelated;
+}
+#hair1Orange {
+	position: absolute;
+	top: 50%;
+	left: 44.4%;
+	transform: scale(1.3);
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	background: url(../images/CCreator/hairtypes/hairtype1Orange.png);
+	image-rendering: pixelated;
+}
+
+#hair2Black {
+	position: absolute;
+	top: 50%;
+	left: 44.4%;
+	transform: scale(1.3);
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	background: url(../images/CCreator/hairtypes/hairtype2Black.png);
+	image-rendering: pixelated;
+}
+#hair2Brown {
+	position: absolute;
+	top: 50%;
+	left: 44.4%;
+	transform: scale(1.3);
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	background: url(../images/CCreator/hairtypes/hairtype2Brown.png);
+	image-rendering: pixelated;
+}
+#hair2Blonde {
+	position: absolute;
+	top: 50%;
+	left: 44.4%;
+	transform: scale(1.3);
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	background: url(../images/CCreator/hairtypes/hairtype2Blonde.png);
+	image-rendering: pixelated;
+}
+#hair2Orange {
+	position: absolute;
+	top: 50%;
+	left: 44.4%;
+	transform: scale(1.3);
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	background: url(../images/CCreator/hairtypes/hairtype2Orange.png);
+	image-rendering: pixelated;
+}
+
+#hair3Black {
+	position: absolute;
+	top: 50%;
+	left: 44.4%;
+	transform: scale(1.3);
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	background: url(../images/CCreator/hairtypes/hairtype3Black.png);
+	image-rendering: pixelated;
+}
+#hair3Brown {
+	position: absolute;
+	top: 50%;
+	left: 44.4%;
+	transform: scale(1.3);
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	background: url(../images/CCreator/hairtypes/hairtype3Brown.png);
+	image-rendering: pixelated;
+}
+#hair3Blonde {
+	position: absolute;
+	top: 50%;
+	left: 44.4%;
+	transform: scale(1.3);
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	background: url(../images/CCreator/hairtypes/hairtype3Blonde.png);
+	image-rendering: pixelated;
+}
+#hair3Orange {
+	position: absolute;
+	top: 50%;
+	left: 44.4%;
+	transform: scale(1.3);
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	background: url(../images/CCreator/hairtypes/hairtype3Orange.png);
+	image-rendering: pixelated;
+}
+#hair4Black {
+	position: absolute;
+	top: 50%;
+	left: 44.4%;
+	transform: scale(1.3);
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	background: url(../images/CCreator/hairtypes/hairtype4Black.png);
+	image-rendering: pixelated;
+}
+#hair4Brown {
+	position: absolute;
+	top: 50%;
+	left: 44.4%;
+	transform: scale(1.3);
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	background: url(../images/CCreator/hairtypes/hairtype4Brown.png);
+	image-rendering: pixelated;
+}
+#hair4Blonde {
+	position: absolute;
+	top: 50%;
+	left: 44.4%;
+	transform: scale(1.3);
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	background: url(../images/CCreator/hairtypes/hairtype4Blonde.png);
+	image-rendering: pixelated;
+}
+#hair4Orange {
+	position: absolute;
+	top: 50%;
+	left: 44.4%;
+	transform: scale(1.3);
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	background: url(../images/CCreator/hairtypes/hairtype4Orange.png);
+	image-rendering: pixelated;
+}
+
+.hair_nav {
+	display: flex;
+	position: absolute;
+	top: 100%;
+	transform: translateY(-50%);
+	left: 30%;
+	justify-content: center;
+	padding: 10px 0;
+	image-rendering: pixelated;
+}
+
+.hair_nav img {
+	width: 30px;
+	image-rendering: pixelated;
+}
+
+.hair_nav img:active {
+	filter: brightness(0);
+	image-rendering: pixelated;
+}
+
+.hair1button {
+	width: 40px;
+	height: 40px;
+	margin: 0 5px;
+	border: none;
+	outline: none;
+	background: none;
+	cursor: pointer;
+	image-rendering: pixelated;
+}
+
+.hair2button {
+	width: 40px;
+	height: 40px;
+	margin: 0 5px;
+	border: none;
+	outline: none;
+	background: none;
+	cursor: pointer;
+	image-rendering: pixelated;
+}
+.hair3button {
+	width: 40px;
+	height: 40px;
+	margin: 0 5px;
+	border: none;
+	outline: none;
+	background: none;
+	cursor: pointer;
+	image-rendering: pixelated;
+}
+.hair4button {
+	width: 40px;
+	height: 40px;
+	margin: 0 5px;
+	border: none;
+	outline: none;
+	background: none;
+	cursor: pointer;
+	image-rendering: pixelated;
+}
+
+.hairColor_button {
+	position: absolute;
+	transform: translateY(-40%);
+	top: 70%;
+	background: transparent;
+	image-rendering: pixelated;
+	border: 0;
+	cursor: pointer;
+	outline: none;
+	z-index: 100;
+}
+
+.hairColor_button--up {
+	top: 15%;
+	right: 120px;
+}
+
+.hairColor_button--up:active {
+	top: 13%;
+}
+.tapped--up {
+	top: 13%;
+}
+
+.hairColor_button--down {
+	right: 120px;
+}
+
+.hairColor_button--down:active {
+	top: 72%;
+}
+
+.tapped--down {
+	top: 72%;
+}
+
+.hairColor_button img {
+	width: 30px;
+	image-rendering: pixelated;
+}
+
+.hairColor_nav {
+	display: flex;
+	position: absolute;
+	top: 120%;
+	transform: translateY(-50%);
+	left: 30%;
+	justify-content: center;
+	padding: 10px 0;
+	image-rendering: pixelated;
+}
+
+.hairColor_nav img {
+	width: 30px;
+	image-rendering: pixelated;
+}
+
+.hairColor_nav img:active {
+	filter: brightness(0);
+	image-rendering: pixelated;
+}
+
+.hairColor1button {
+	width: 40px;
+	height: 40px;
+	margin: 0 5px;
+	border: none;
+	outline: none;
+	background: none;
+	cursor: pointer;
+	image-rendering: pixelated;
+}
+.hairColor2button {
+	width: 40px;
+	height: 40px;
+	margin: 0 5px;
+	border: none;
+	outline: none;
+	background: none;
+	cursor: pointer;
+	image-rendering: pixelated;
+}
+.hairColor3button {
+	width: 40px;
+	height: 40px;
+	margin: 0 5px;
+	border: none;
+	outline: none;
+	background: none;
+	cursor: pointer;
+	image-rendering: pixelated;
+}
+.hairColor4button {
+	width: 40px;
+	height: 40px;
+	margin: 0 5px;
+	border: none;
+	outline: none;
+	background: none;
+	cursor: pointer;
+	image-rendering: pixelated;
+}
+
+.hairSubmitBtn {
+	position: absolute;
+	top: 145%;
+	transform: translateY(-50%);
+	left: 33%;
+	width: 100px;
+	height: 40px;
+	margin: 0 5px;
+	font-family: 'Press Start 2P', bold;
+	font-size: 12px;
+	font-weight: 300;
+	color: #000000;
+	background-color: #ffffff;
+	box-shadow: inset 0 -4px 0 0 rgba(0, 0, 0, 0.2);
+	transition: 0.1s;
+	text-shadow: 0px 2px rgba(0, 0, 0, 0.2);
+	appearance: none;
+	outline: none;
+	margin: 0;
+	cursor: pointer;
+	padding: 3px 3px;
+	border-radius: 8px;
+	image-rendering: pixelated;
+}
+
+.hairSubmitBtn:active {
+	color: dimgray;
+	outline: 2px solid whitesmoke;
+	width: 95px;
+	height: 35px;
+	box-shadow: inset 0 -100px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+.CCreatorP2 {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	top: 115%;
+	transform: translateY(-50%);
+	left: 0px;
+	width: 50px;
+	height: 50px;
+	font-family: 'Press Start 2P', bold;
+	font-size: 12px;
+	font-weight: 300;
+	padding-top: 20px;
+	margin: 0 auto;
+	image-rendering: pixelated;
+}

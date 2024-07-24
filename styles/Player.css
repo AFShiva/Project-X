@@ -1,0 +1,85 @@
+/* Til UMP-Skin */
+.darkwalkerfix {
+	background-image: url('/images/umpcharacters/Skins/darkskin.png');
+	image-rendering: pixelated;
+}
+.brownwalker {
+	background-image: url('/images/umpcharacters/Skins/brownskin.png');
+	image-rendering: pixelated;
+}
+.palewalker {
+	background-image: url('/images/umpcharacters/Skins/paleskin.png');
+	image-rendering: pixelated;
+}
+.whitewalker {
+	background-image: url('/images/umpcharacters/Skins/whiteskin.png');
+	image-rendering: pixelated;
+}
+/* Til UMP-Face */
+.faceType4Green {
+	background-image: url('/images/umpcharacters/Faces/face4Green.png');
+	image-rendering: pixelated;
+}
+.faceType4Blue {
+	background-image: url('/images/umpcharacters/Faces/face4Blue.png');
+	image-rendering: pixelated;
+}
+.faceType4Brown {
+	background-image: url('/images/umpcharacters/Faces/face4Brown.png');
+	image-rendering: pixelated;
+}
+.faceType4Black {
+	background-image: url('/images/umpcharacters/Faces/face4Black.png');
+	image-rendering: pixelated;
+}
+
+.faceType3Green {
+	background-image: url('/images/umpcharacters/Faces/face3Green.png');
+	image-rendering: pixelated;
+}
+.faceType3Blue {
+	background-image: url('/images/umpcharacters/Faces/face3Blue.png');
+	image-rendering: pixelated;
+}
+.faceType3Brown {
+	background-image: url('/images/umpcharacters/Faces/face3Brown.png');
+	image-rendering: pixelated;
+}
+.faceType3Black {
+	background-image: url('/images/umpcharacters/Faces/face3Black.png');
+	image-rendering: pixelated;
+}
+
+.faceType2Green {
+	background-image: url('/images/umpcharacters/Faces/face2Green.png');
+	image-rendering: pixelated;
+}
+.faceType2Blue {
+	background-image: url('/images/umpcharacters/Faces/face2Blue.png');
+	image-rendering: pixelated;
+}
+.faceType2Brown {
+	background-image: url('/images/umpcharacters/Faces/face2Brown.png');
+	image-rendering: pixelated;
+}
+.faceType2Black {
+	background-image: url('/images/umpcharacters/Faces/face2Black.png');
+	image-rendering: pixelated;
+}
+
+.faceType1Green {
+	background-image: url('/images/umpcharacters/Faces/face1Green.png');
+	image-rendering: pixelated;
+}
+.faceType1Blue {
+	background-image: url('/images/umpcharacters/Faces/face1Blue.png');
+	image-rendering: pixelated;
+}
+.faceType1Brown {
+	background-image: url('/images/umpcharacters/Faces/face1Brown.png');
+	image-rendering: pixelated;
+}
+.faceType1Black {
+	background-image: url('/images/umpcharacters/Faces/face1Black.png');
+	image-rendering: pixelated;
+}

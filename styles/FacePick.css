@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+.no_show {
+	display: none;
+}
+
+.face_button {
+	position: absolute;
+	transform: translateY(-40%);
+	top: 40%;
+	background: transparent;
+	image-rendering: crisp-edges;
+	border: 0;
+	cursor: pointer;
+	outline: none;
+	z-index: 100;
+}
+
+.face_button--left {
+	left: 50px;
+}
+
+.face_button--left:active {
+	left: 45px;
+}
+.tapped--left {
+	left: 45px;
+}
+
+.face_button--right {
+	right: 50px;
+}
+
+.face_button--right:active {
+	right: 45px;
+}
+
+.tapped--right {
+	right: 45px;
+}
+
+.face_button img {
+	width: 30px;
+	image-rendering: pixelated;
+}
+
+#face1Black {
+	position: absolute;
+	top: 50%;
+	left: 44.4%;
+	transform: scale(1.3);
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	background: url(../images/CCreator/facetypes/faceType1Black.png);
+	image-rendering: pixelated;
+}
+#face1Brown {
+	position: absolute;
+	top: 50%;
+	left: 44.4%;
+	transform: scale(1.3);
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	background: url(../images/CCreator/facetypes/faceType1Brown.png);
+	image-rendering: pixelated;
+}
+#face1Blue {
+	position: absolute;
+	top: 50%;
+	left: 44.4%;
+	transform: scale(1.3);
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	background: url(../images/CCreator/facetypes/faceType1Blue.png);
+	image-rendering: pixelated;
+}
+#face1Green {
+	position: absolute;
+	top: 50%;
+	left: 44.4%;
+	transform: scale(1.3);
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	background: url(../images/CCreator/facetypes/faceType1Green.png);
+	image-rendering: pixelated;
+}
+
+#face2Black {
+	position: absolute;
+	top: 50%;
+	left: 44.4%;
+	transform: scale(1.3);
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	background: url(../images/CCreator/facetypes/faceType2Black.png);
+	image-rendering: pixelated;
+}
+#face2Brown {
+	position: absolute;
+	top: 50%;
+	left: 44.4%;
+	transform: scale(1.3);
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	background: url(../images/CCreator/facetypes/faceType2Brown.png);
+	image-rendering: pixelated;
+}
+#face2Blue {
+	position: absolute;
+	top: 50%;
+	left: 44.4%;
+	transform: scale(1.3);
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	background: url(../images/CCreator/facetypes/faceType2Blue.png);
+	image-rendering: pixelated;
+}
+#face2Green {
+	position: absolute;
+	top: 50%;
+	left: 44.4%;
+	transform: scale(1.3);
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	background: url(../images/CCreator/facetypes/faceType2Green.png);
+	image-rendering: pixelated;
+}
+
+#face3Black {
+	position: absolute;
+	top: 50%;
+	left: 44.4%;
+	transform: scale(1.3);
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	background: url(../images/CCreator/facetypes/faceType3Black.png);
+	image-rendering: pixelated;
+}
+#face3Brown {
+	position: absolute;
+	top: 50%;
+	left: 44.4%;
+	transform: scale(1.3);
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	background: url(../images/CCreator/facetypes/faceType3Brown.png);
+	image-rendering: pixelated;
+}
+#face3Blue {
+	position: absolute;
+	top: 50%;
+	left: 44.4%;
+	transform: scale(1.3);
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	background: url(../images/CCreator/facetypes/faceType3Blue.png);
+	image-rendering: pixelated;
+}
+#face3Green {
+	position: absolute;
+	top: 50%;
+	left: 44.4%;
+	transform: scale(1.3);
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	background: url(../images/CCreator/facetypes/faceType3Green.png);
+	image-rendering: pixelated;
+}
+#face4Black {
+	position: absolute;
+	top: 50%;
+	left: 44.4%;
+	transform: scale(1.3);
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	background: url(../images/CCreator/facetypes/faceType4Black.png);
+	image-rendering: pixelated;
+}
+#face4Brown {
+	position: absolute;
+	top: 50%;
+	left: 44.4%;
+	transform: scale(1.3);
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	background: url(../images/CCreator/facetypes/faceType4Brown.png);
+	image-rendering: pixelated;
+}
+#face4Blue {
+	position: absolute;
+	top: 50%;
+	left: 44.4%;
+	transform: scale(1.3);
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	background: url(../images/CCreator/facetypes/faceType4Blue.png);
+	image-rendering: pixelated;
+}
+#face4Green {
+	position: absolute;
+	top: 50%;
+	left: 44.4%;
+	transform: scale(1.3);
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	background: url(../images/CCreator/facetypes/faceType4Green.png);
+	image-rendering: pixelated;
+}
+
+.face_nav {
+	display: flex;
+	position: absolute;
+	top: 100%;
+	transform: translateY(-50%);
+	left: 30%;
+	justify-content: center;
+	padding: 10px 0;
+	image-rendering: pixelated;
+}
+
+.face_nav img {
+	width: 30px;
+	image-rendering: pixelated;
+}
+
+.face_nav img:active {
+	filter: brightness(0);
+	image-rendering: pixelated;
+}
+
+.face1button {
+	width: 40px;
+	height: 40px;
+	margin: 0 5px;
+	border: none;
+	outline: none;
+	background: none;
+	cursor: pointer;
+	image-rendering: pixelated;
+}
+
+.face2button {
+	width: 40px;
+	height: 40px;
+	margin: 0 5px;
+	border: none;
+	outline: none;
+	background: none;
+	cursor: pointer;
+	image-rendering: pixelated;
+}
+.face3button {
+	width: 40px;
+	height: 40px;
+	margin: 0 5px;
+	border: none;
+	outline: none;
+	background: none;
+	cursor: pointer;
+	image-rendering: pixelated;
+}
+.face4button {
+	width: 40px;
+	height: 40px;
+	margin: 0 5px;
+	border: none;
+	outline: none;
+	background: none;
+	cursor: pointer;
+	image-rendering: pixelated;
+}
+
+.eye_button {
+	position: absolute;
+	transform: translateY(-40%);
+	top: 70%;
+	background: transparent;
+	image-rendering: pixelated;
+	border: 0;
+	cursor: pointer;
+	outline: none;
+	z-index: 100;
+}
+
+.eye_button--up {
+	top: 15%;
+	right: 120px;
+}
+
+.eye_button--up:active {
+	top: 13%;
+}
+.tapped--up {
+	top: 13%;
+}
+
+.eye_button--down {
+	right: 120px;
+}
+
+.eye_button--down:active {
+	top: 72%;
+}
+
+.tapped--down {
+	top: 72%;
+}
+
+.eye_button img {
+	width: 30px;
+	image-rendering: pixelated;
+}
+
+.eye_nav {
+	display: flex;
+	position: absolute;
+	top: 120%;
+	transform: translateY(-50%);
+	left: 30%;
+	justify-content: center;
+	padding: 10px 0;
+	image-rendering: pixelated;
+}
+
+.eye_nav img {
+	width: 30px;
+	image-rendering: pixelated;
+}
+
+.eye_nav img:active {
+	filter: brightness(0);
+	image-rendering: pixelated;
+}
+
+.eye1button {
+	width: 40px;
+	height: 40px;
+	margin: 0 5px;
+	border: none;
+	outline: none;
+	background: none;
+	cursor: pointer;
+	image-rendering: pixelated;
+}
+.eye2button {
+	width: 40px;
+	height: 40px;
+	margin: 0 5px;
+	border: none;
+	outline: none;
+	background: none;
+	cursor: pointer;
+	image-rendering: pixelated;
+}
+.eye3button {
+	width: 40px;
+	height: 40px;
+	margin: 0 5px;
+	border: none;
+	outline: none;
+	background: none;
+	cursor: pointer;
+	image-rendering: pixelated;
+}
+.eye4button {
+	width: 40px;
+	height: 40px;
+	margin: 0 5px;
+	border: none;
+	outline: none;
+	background: none;
+	cursor: pointer;
+	image-rendering: pixelated;
+}
+
+.faceSubmitBtn {
+	position: absolute;
+	top: 145%;
+	transform: translateY(-50%);
+	left: 33%;
+	width: 100px;
+	height: 40px;
+	margin: 0 5px;
+	font-family: 'Press Start 2P', bold;
+	font-size: 12px;
+	font-weight: 300;
+	color: #000000;
+	background-color: #ffffff;
+	box-shadow: inset 0 -4px 0 0 rgba(0, 0, 0, 0.2);
+	transition: 0.1s;
+	text-shadow: 0px 2px rgba(0, 0, 0, 0.2);
+	appearance: none;
+	outline: none;
+	margin: 0;
+	cursor: pointer;
+	padding: 3px 3px;
+	border-radius: 8px;
+	image-rendering: pixelated;
+}
+
+.faceSubmitBtn:active {
+	color: dimgray;
+	outline: 2px solid whitesmoke;
+	width: 95px;
+	height: 35px;
+	box-shadow: inset 0 -100px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+.CCreatorP2 {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	top: 115%;
+	transform: translateY(-50%);
+	left: 0px;
+	width: 50px;
+	height: 50px;
+	font-family: 'Press Start 2P', bold;
+	font-size: 12px;
+	font-weight: 300;
+	padding-top: 20px;
+	margin: 0 auto;
+	image-rendering: pixelated;
+}
