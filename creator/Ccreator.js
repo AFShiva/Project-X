@@ -421,7 +421,7 @@ class Ccreator {
 			if (this.skinCount == 4) {
 				// Til at at fixe se bar hed af darkwalker med brune øjne.
 				document.getElementById('dark').style.background =
-					'url(..https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/skintypes/darkwalkerfix.png)';
+					'url(https://raw.githubusercontent.com/AFShiva/Project-X/main/images/CCreator/skintypes/darkwalkerfix.png)';
 				setSkinColor('darkwalkerfix');
 				this.skinPicked = true;
 				this.skinDone();
